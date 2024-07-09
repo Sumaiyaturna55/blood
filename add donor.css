@@ -1,0 +1,53 @@
+body{
+    background-image: url('frontimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dnr{
+    float: left;
+    width: 45%;
+    Height: 80%;
+    text-align: center;
+    font-size: 40px;
+    background-image: url('loginimg.jpg');
+}
+
+.sub{
+    font-size: 40px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.sub:hover{
+    background-color: black;
+    color:white;
+    
+}
+.flex-cont{
+	background-color:antiquewhite;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	position:sticky;
+	top:0;
+	border: 3.5px solid-color: darkred;
+}
+.sel{
+	margin:10px 0px 10px 0px;
+	padding:12px 24px 12px 24px;
+	background-color:darkred;
+	text-align:center;
+	border-radius:20px;
+	transition:1s;
+}
+.sel:hover{
+	background-color:whitesmoke;
+}
+.btn{
+	color:white;
+	text-decoration:none;
+	font-size:4vw;
+}
+.btn:hover{
+	color:black;
+}
